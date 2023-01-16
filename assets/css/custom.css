@@ -5,6 +5,15 @@
 }
 
 @media screen {
+  .m-article-card__excerpt {
+    flex-grow: 1;
+    padding-top: 8px;
+    color: #999;
+    font-style: italic;
+  }
+}
+
+@media screen {
   @media only screen and (min-width: 48rem) {
     .m-article-card {
       height: 550px;
