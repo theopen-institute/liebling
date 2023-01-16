@@ -1,4 +1,10 @@
 @media screen {
+  .m-article-card {
+    height: 530px;
+  }
+}
+
+@media screen {
   @media only screen and (min-width: 48rem) {
     .m-article-card {
       height: 550px;
