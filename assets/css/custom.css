@@ -1,4 +1,15 @@
 @media screen {
+  @media only screen and (min-width: 48rem) {
+    .m-article-card {
+      height: 550px;
+    }
+    .m-featured-slider.swiper {
+      height: 550px !important;
+    }
+  }
+}
+
+@media screen {
   .m-article-card {
     height: 530px;
   }
@@ -12,16 +23,5 @@
     flex-grow: 1;
     padding-top: 8px;
     color: #999;
-  }
-}
-
-@media screen {
-  @media only screen and (min-width: 48rem) {
-    .m-article-card {
-      height: 550px;
-    }
-    .m-featured-slider.swiper {
-      height: 550px;
-    }
   }
 }
